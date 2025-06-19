@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     // Faz requisição para o arquivo profile.json da pasta public
-    fetch("/profile.json")
+    fetch('/portfolio-react/profile.json')
       .then((res) => res.json()) // Converte a resposta para JSON
       .then(setProfile); // Atualiza o estado com os dados carregados
   }, []); // Executa uma vez ao montar o componente 
