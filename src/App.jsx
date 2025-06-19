@@ -5,6 +5,7 @@ import { Languages } from './components/Languages/Languages';
 import { Education } from './components/Education/Education';
 import { Portfolio } from './components/Portfolio/Portfolio';
 import { Experience } from './components/Experience/Experience';
+import { Loading } from './components/Loading/Loading';
 
 import { useState, useEffect } from 'react';
 
@@ -19,8 +20,8 @@ function App() {
       .then(setProfile); // Atualiza o estado com os dados carregados
   }, []); // Executa uma vez ao montar o componente 
 
-  // Enquanto os dados não forem carregados, exibe a mensagem
-  if (!profile) return <p>Carregando...</p>;
+  // Enquanto os dados não forem carregados, exibe componente com spinner  
+  if (!profile) return <Loading />;
 
   return (
     <div className='main'>
