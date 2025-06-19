@@ -1,0 +1,111 @@
+.technology-info h3 {
+    color: #fff;
+    font-size: 0.7rem; 
+    margin: 0.5rem;
+}
+
+.technology-info .mobile-hidden {
+    display: none; /* Esconde no mobile */
+}
+
+.technologies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.technologies-grid .technology-card {
+    display: flex;
+    flex-direction: column-reverse; 
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding: 0.5rem;
+    border: 1px solid #fff;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.technologies-grid .technology-card svg {
+    font-size: 3rem; /* Ícones menores no mobile */
+}
+
+/* Cores por tecnologia */
+#html svg {
+    color: #e34f26;
+}
+
+#css svg {
+    color: #1572b6;
+}
+
+#js svg {
+    color: #f7df1e;
+}
+
+#ts svg {
+    color: #3178c6;
+}
+
+#react svg {
+    color: #61dafb;
+}
+
+#next svg {
+    color: #000000;
+}
+
+#angular svg {
+    color: #dd0031;
+}
+
+#sass svg {
+    color: #c69;
+}
+
+#tailwind svg {
+    color: #38bdf8;
+}
+
+#bootstrap svg {
+    color: #B46CFF;
+}
+
+#figma svg {
+    color: #f24e1e;
+}
+
+#git svg {
+    color: #f05032;
+}
+
+#mysql svg {
+    color: #00758F;
+    transform: scale(1.1);
+    font-size: 3rem; /* Padrão mobile */
+}
+
+@media (min-width: 768px) {
+    .technology-info h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .technology-info .mobile-hidden {
+        display: block; /* Mostra o conteúdo escondido no desktop */
+    }
+
+    .technologies-grid .technology-card {
+        flex-direction: row; /* Layout horizontal em telas maiores */
+        gap: 1rem;
+    }
+
+    .technologies-grid .technology-card svg {
+        font-size: 6rem; /* Ícones maiores no desktop */
+    }
+
+    #mysql svg {
+        font-size: 7rem; /* Específico pro MySQL no desktop */
+    }
+}

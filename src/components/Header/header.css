@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+header .photo {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%; 
+}
+
+header .title {
+    font-family: "Naue Machina", sans-serif;
+    text-align: center;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.125rem;
+}
+
+.information p::before {
+    content: ''; /* Pseudo-elemento antes do texto pra colocar ícone */
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.information .job::before {
+    background-image: url('../../assets/image/icons/job.svg'); /* Ícone de trabalho */
+}
+
+.information .location::before {
+    background-image: url('../../assets/image/icons/location.svg'); /* Ícone de localização */
+}
+
+.information .linkedin::before {
+    background-image: url('../../assets/image/icons/linkedin.svg'); /* Ícone do LinkedIn */
+}
+
+.information .resume::before {
+    background-image: url('../../assets/image/icons/resume.svg'); /* Ícone de currículo */
+}
+
+.information .phone::before {
+    background-image: url('../../assets/image/icons/phone.svg'); /* Ícone de telefone */
+}
+
+.information .email::before {
+    background-image: url('../../assets/image/icons/email.svg'); /* Ícone de email */
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        display: grid; /* Muda layout pra grid em telas maiores */
+        grid-template-areas:
+            "photo title"
+            "photo information"; /* Define áreas da grid */
+    }
+
+    header .photo {
+        grid-area: photo;
+        margin: 0 auto; /* Centraliza foto na grid */
+    }
+
+    header .title {
+        grid-area: title;
+        text-align: start; /* Alinha texto à esquerda */
+        max-width: 200px;
+    }
+
+    header .information {
+        grid-area: information;
+    }
+}

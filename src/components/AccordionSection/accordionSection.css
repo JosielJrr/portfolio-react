@@ -1,0 +1,71 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    transition: .25s; /* Transição suave ao abrir/fechar ou ao passar o mouse */
+}
+
+.accordion.open,
+.accordion:hover {
+    background-color: #493A85;
+    border-color: #493A85; /* Efeito visual ao hover ou quando aberto */
+}
+
+.accordion .trigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.accordion .trigger:hover {
+    cursor: pointer; /* Muda o cursor ao passar o mouse (UX) */
+}
+
+.accordion .trigger::after {
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../assets/image/icons/arrow-top.svg');
+    transition: .25s; /* Transição suave do ícone ao rotacionar */
+}
+
+.accordion.open .trigger::after {
+    transform: rotate(180deg); /* Roda o ícone quando o accordion está aberto */
+}
+
+.accordion .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.accordion .content {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out; /* Transição de aparecimento/desaparecimento do conteúdo ao abrir/fechar */
+}
+
+.accordion.open .content {
+    display: block;
+    padding: 0 1rem 1rem 1rem; 
+    height: auto;
+    opacity: 1; /* Torna visível com transição suave de opacidade */
+}
+
+@media (min-width: 768px) {
+    .accordion.open .content {
+        padding: 0 2rem 1rem 2rem; /* Aumenta o padding em telas maiores */
+    }
+}
