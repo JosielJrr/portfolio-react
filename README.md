@@ -1,6 +1,6 @@
 # 💼 Portfólio Pessoal - React
 
-Portfólio dinâmico desenvolvido com React que consome um arquivo JSON local para exibir de forma organizada e responsiva suas principais informações pessoais, além de habilidades, idiomas, certificações, projetos e experiências profissionais.
+Portfólio dinâmico desenvolvido com React que consome um arquivo JSON local para exibir de forma organizada e responsiva minhas principais informações pessoais, além de habilidades, idiomas, certificações, projetos e experiências profissionais.
 
 ## 🛠️ Tecnologias utilizadas
 
