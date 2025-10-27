@@ -24,6 +24,7 @@ export const Education = ({ educationList }) => {
                                     Certificado - {education.training}
                                 </a>
                             )}
+                            <hr/>
                         </li>
                     );
                 })}

@@ -17,6 +17,7 @@ export const Portfolio = ({ projectList }) => {
                             <a href={project.url} target="_blank" rel="noopener noreferrer">
                                 Ir para o Repositório
                             </a>
+                            <hr />
                         </li>
                     )
                 })}
