@@ -1,7 +1,7 @@
 import './App.css';
 import { Header } from './components/Header/Header';
 import { Technologies } from './components/Technologies/Technologies';
-import { Languages } from './components/Languages/Languages';
+// import { Languages } from './components/Languages/Languages';
 import { Education } from './components/Education/Education';
 import { Projects } from './components/Projects/Projects';
 import { Experience } from './components/Experience/Experience';
@@ -35,7 +35,7 @@ function App() {
         email={profile.email}
       />
       <Technologies />
-      <Languages languageList={profile.languages} />
+      {/* <Languages languageList={profile.languages} /> */}
       <Education educationList={profile.education} />
       <Projects />
       <Experience experienceList={profile.experience} />
