@@ -1,11 +1,16 @@
 .technology-info h3 {
     color: #fff;
-    font-size: 0.7rem; 
-    margin: 0.5rem;
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.technology-info p {
+    color: #E6E6E6;
 }
 
 .technology-info .mobile-hidden {
-    display: none; /* Esconde no mobile */
+    /* Esconde no mobile */
+    display: none;
 }
 
 .technologies-grid {
@@ -17,74 +22,21 @@
 
 .technologies-grid .technology-card {
     display: flex;
-    flex-direction: column-reverse; 
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     gap: 0;
     padding: 0.5rem;
     border: 1px solid #fff;
-    width: 45%;
+    width: calc(50% - 1rem);
     border-radius: 5px;
 }
 
 .technologies-grid .technology-card svg {
-    font-size: 3rem; /* Ícones menores no mobile */
+    color: #fff;
+    font-size: 3rem;
 }
 
-/* Cores por tecnologia */
-#html svg {
-    color: #e34f26;
-}
-
-#css svg {
-    color: #1572b6;
-}
-
-#js svg {
-    color: #f7df1e;
-}
-
-#ts svg {
-    color: #3178c6;
-}
-
-#react svg {
-    color: #61dafb;
-}
-
-#next svg {
-    color: #000000;
-}
-
-#angular svg {
-    color: #dd0031;
-}
-
-#sass svg {
-    color: #c69;
-}
-
-#tailwind svg {
-    color: #38bdf8;
-}
-
-#bootstrap svg {
-    color: #B46CFF;
-}
-
-#figma svg {
-    color: #f24e1e;
-}
-
-#git svg {
-    color: #f05032;
-}
-
-#mysql svg {
-    color: #00758F;
-    transform: scale(1.1);
-    font-size: 3rem; /* Padrão mobile */
-}
 
 @media (min-width: 768px) {
     .technology-info h3 {
@@ -93,19 +45,17 @@
     }
 
     .technology-info .mobile-hidden {
-        display: block; /* Mostra o conteúdo escondido no desktop */
+        /* Mostra o conteúdo escondido no desktop */
+        display: block;
     }
 
     .technologies-grid .technology-card {
-        flex-direction: row; /* Layout horizontal em telas maiores */
+        /* Layout horizontal em telas maiores */
+        flex-direction: row;
         gap: 1rem;
     }
 
     .technologies-grid .technology-card svg {
-        font-size: 6rem; /* Ícones maiores no desktop */
-    }
-
-    #mysql svg {
-        font-size: 7rem; /* Específico pro MySQL no desktop */
+        font-size: 5rem;
     }
 }

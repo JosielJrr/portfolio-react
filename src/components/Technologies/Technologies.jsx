@@ -105,8 +105,11 @@ export const Technologies = () => {
             <section>
                 <div className="technologies-grid">
                     {technologies.map((tech) => (
-                        <div className="technology-card" id={tech.id} key={tech.id}>
-                            {tech.icon}
+                        <div className="technology-card" key={tech.id}>
+                            <div className="technology-icon">
+                                {tech.icon}
+                            </div>
+
                             <div className="technology-info">
                                 <h3>{tech.name}</h3>
                                 <p className="mobile-hidden">{tech.description}</p>
@@ -117,4 +120,5 @@ export const Technologies = () => {
             </section>
         </AccordionSection>
     )
+
 }
