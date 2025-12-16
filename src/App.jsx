@@ -3,7 +3,7 @@ import { Header } from './components/Header/Header';
 import { Technologies } from './components/Technologies/Technologies';
 import { Languages } from './components/Languages/Languages';
 import { Education } from './components/Education/Education';
-import { Portfolio } from './components/Portfolio/Portfolio';
+import { Projects } from './components/Projects/Projects';
 import { Experience } from './components/Experience/Experience';
 import { Loading } from './components/Loading/Loading';
 
@@ -37,7 +37,7 @@ function App() {
       <Technologies />
       <Languages languageList={profile.languages} />
       <Education educationList={profile.education} />
-      <Portfolio projectList={profile.portfolio} />
+      <Projects />
       <Experience experienceList={profile.experience} />
     </div>
   )
