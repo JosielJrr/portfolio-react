@@ -21,17 +21,8 @@
             "certificate": ""
         },
         {
-            "training": "Bootcamp: Potência Tech iFood Programação do Zero",
-            "institution": "DIO",
-            "period": {
-                "start": "",
-                "end": ""
-            },
-            "certificate": "https://hermes.dio.me/certificates/65852430.pdf"
-        },
-        {
             "training": "Formação Lógica de Programação",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -40,7 +31,7 @@
         },
         {
             "training": "Formação Github Certification",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -49,7 +40,7 @@
         },
         {
             "training": "Formação HTML Web Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -58,7 +49,7 @@
         },
         {
             "training": "Formação CSS Web Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -67,7 +58,7 @@
         },
         {
             "training": "Formação JavaScript Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -76,7 +67,7 @@
         },
         {
             "training": "Formação TypeScript Fullstack Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -85,7 +76,7 @@
         },
         {
             "training": "Formação React Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -103,7 +94,7 @@
         },
         {
             "training": "Formação Angular Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -112,7 +103,7 @@
         },
         {
             "training": "Formação UX Designer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -127,98 +118,6 @@
                 "end": ""
             },
             "certificate": "https://www.udemy.com/certificate/UC-35e92255-cafa-4f22-8261-d79e4d1512b7/"
-        }
-    ],
-    "portfolio": [
-        {
-            "name": "Currículo Digital - React e SCSS",
-            "url": "https://github.com/JosielJrr/curriculo-digital-react-scss",
-            "github": true
-        },
-        {
-            "name": "Spotify Home Page - React",
-            "url": "https://github.com/JosielJrr/spotify-homepage-react",
-            "github": true
-        },
-        {
-            "name": "BuzzFeed Quiz - Angular",
-            "url": "https://github.com/JosielJrr/buzzfeed-quiz-angular",
-            "github": true
-        },
-        {
-            "name": "PlayStation Store - Angular",
-            "url": "https://github.com/JosielJrr/playstation-store-angular",
-            "github": true
-        },
-        {
-            "name": "Marvel Blog - Angular",
-            "url": "https://github.com/JosielJrr/marvel-blog-angular",
-            "github": true
-        },
-        {
-            "name": "NextGram - Next.js e TS",
-            "url": "https://github.com/JosielJrr/nextgram-next-ts",
-            "github": true
-        },
-        {
-            "name": "Lista de Tarefas - Next.js",
-            "url": "https://github.com/JosielJrr/nextjs-todo-app",
-            "github": true
-        },
-        {
-            "name": "To do List - React + Vite",
-            "url": "https://github.com/JosielJrr/react-todo-list",
-            "github": true
-        },
-        {
-            "name": "Calculadora Aritmética - React",
-            "url": "https://github.com/JosielJrr/react-calculator-app",
-            "github": true
-        },
-        {
-            "name": "Pokédex",
-            "url": "https://github.com/JosielJrr/pokedex",
-            "github": true
-        },
-        {
-            "name": "GitHub Profile Viewer",
-            "url": "https://github.com/JosielJrr/gitHub-profile-viewer",
-            "github": true
-        },
-        {
-            "name": "Spider-Man Multiverse",
-            "url": "https://github.com/JosielJrr/spider-man-multiverse",
-            "github": true
-        },
-        {
-            "name": "HBO Max Clone",
-            "url": "https://github.com/JosielJrr/clone-hbo-max",
-            "github": true
-        },
-        {
-            "name": "Discord Home Page",
-            "url": "https://github.com/JosielJrr/discord-homepage",
-            "github": true
-        },
-        {
-            "name": "Vinacafé - Projeto de Cafeteria",
-            "url": "https://github.com/JosielJrr/coffee-shop",
-            "github": true
-        },
-        {
-            "name": "YouTube Home Page",
-            "url": "https://github.com/JosielJrr/youtube-homepage",
-            "github": true
-        },
-        {
-            "name": "YouTube Video Page",
-            "url": "https://github.com/JosielJrr/youtube-video-page",
-            "github": true
-        },
-        {
-            "name": "Landing Page DIO",
-            "url": "https://github.com/JosielJrr/landing-page-dio",
-            "github": true
         }
     ],
     "experience": [
