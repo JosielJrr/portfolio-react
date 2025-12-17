@@ -12,19 +12,18 @@ export const Education = ({ educationList }) => {
 
                     return (
                         <li key={index}>
-                            <h3>{education.training} - {education.institution}</h3>
+                            <h2>{education.training}</h2>
+                            <h3>{education.institution}</h3>
                             <p className="period">Início: {startDate} Fim: {endDate}</p>
                             {hasCertificate && (
-                                <a
-                                    href={education.certificate}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="certificate"
-                                >
-                                    Certificado - {education.training}
-                                </a>
+                                    <a
+                                        href={education.certificate}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Certificado
+                                    </a>
                             )}
-                            <hr/>
                         </li>
                     );
                 })}

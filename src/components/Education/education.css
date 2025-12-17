@@ -1,38 +1,85 @@
 .education {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
     width: 100%;
-    margin: 0;
+    margin: auto;
     padding: 0;
     list-style: none;
 }
 
+.education li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 0.75rem;
+    flex-basis: 100%;
+    min-height: 150px;
+}
+
+.education li h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
 .education li h3 {
-    margin-top: 0;
+    margin: 0.3rem 0;
     font-weight: 600;
+    color: #DADADA;
+    font-size: 0.8rem;
 }
 
 .education li .period {
     display: flex;
-    flex-direction: row;
     align-items: center;
     font-weight: 600;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
 }
 
 .education li .period::before {
-    content: ""; /* Gera um pseudo-elemento antes do conteúdo */
+    content: "";
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.3rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../../assets/image/icons/calendar.svg'); /* Ícone de calendário antes do período */
-    margin-right: .5rem;
+    background-image: url('../../assets/image/icons/calendar.svg');
 }
 
-.education li hr {
-    border: none;
-    border-top: 0.7px solid #cccccc5a;
-    margin: 1rem 0;
+.education li a {
+    display: block;
+    text-align: center;
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+    background: #5F6AE6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.education li a:hover {
+    background: #6F79EE;
+    transform: translateY(-1px);
+}
+
+@media (min-width: 768px) {
+    .education li {
+        /* 2 colunas no desktop */
+        flex-basis: calc(50% - 1rem);
+    }
+
+    .education li h2 {
+        font-size: 1.1rem;
+    }
+
+    .education li h3 {
+        font-weight: 700;
+    }
 }

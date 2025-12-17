@@ -21,17 +21,8 @@
             "certificate": ""
         },
         {
-            "training": "Bootcamp: Potência Tech iFood Programação do Zero",
-            "institution": "DIO",
-            "period": {
-                "start": "",
-                "end": ""
-            },
-            "certificate": "https://hermes.dio.me/certificates/65852430.pdf"
-        },
-        {
             "training": "Formação Lógica de Programação",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -40,7 +31,7 @@
         },
         {
             "training": "Formação Github Certification",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -49,7 +40,7 @@
         },
         {
             "training": "Formação HTML Web Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -58,7 +49,7 @@
         },
         {
             "training": "Formação CSS Web Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -67,7 +58,7 @@
         },
         {
             "training": "Formação JavaScript Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -76,7 +67,7 @@
         },
         {
             "training": "Formação TypeScript Fullstack Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -85,7 +76,7 @@
         },
         {
             "training": "Formação React Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -103,7 +94,7 @@
         },
         {
             "training": "Formação Angular Developer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""
@@ -112,7 +103,7 @@
         },
         {
             "training": "Formação UX Designer",
-            "institution": "DIO",
+            "institution": "Digital Innovation One - DIO",
             "period": {
                 "start": "",
                 "end": ""

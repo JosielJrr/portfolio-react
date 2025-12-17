@@ -6,6 +6,7 @@ Portfólio dinâmico desenvolvido com React que consome um arquivo JSON local pa
 
 - [React](https://react.dev/)
 - [React Icons](https://react-icons.github.io/react-icons/)
+- **GitHub REST API** (para consumir dados do GitHub)
 
 ## 🚀 Como rodar o projeto
 
