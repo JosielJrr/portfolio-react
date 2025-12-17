@@ -1,6 +1,8 @@
 import './projects.css';
+
 import { AccordionSection } from '../AccordionSection/AccordionSection';
 import { Loading } from '../Loading/Loading';
+
 import { useEffect, useState } from 'react';
 
 // Função para formatar o título

@@ -54,12 +54,13 @@
 .education li a {
     display: block;
     text-align: center;
-    padding: 0.4rem 0.6rem;
+    padding: 0.45rem 0.6rem;
     border-radius: 5px;
     background: #5F6AE6;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    font-size: 0.9rem;
 
     transition: background 0.2s ease, transform 0.1s ease;
 }
@@ -73,10 +74,6 @@
     .education li {
         /* 2 colunas no desktop */
         flex-basis: calc(50% - 1rem);
-    }
-
-    .education li h2 {
-        font-size: 1.1rem;
     }
 
     .education li h3 {

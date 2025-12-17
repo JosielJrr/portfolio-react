@@ -13,21 +13,22 @@
     /* 1 card por linha no mobile */
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.3rem;
 }
 
 .projects-title {
     color: #fff;
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin: 0;
     text-align: center;
 }
 
 .projects-description {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     color: #E6E6E6;
     line-height: 1.4;
     text-align: center;
+    margin: 0.6rem 0;
 }
 
 .projects-links {
@@ -39,7 +40,8 @@
 .projects-links a {
     flex: 1;
     text-align: center;
-    font-size: 0.7rem;
+    font-weight: 600;
+    font-size: 0.9rem;
     padding: 0.45rem 0;
     border-radius: 4px;
     text-decoration: none;
@@ -47,7 +49,6 @@
     background: #5F6AE6;
     color: #ffffff;
 
-    font-weight: 500;
     transition: background 0.2s ease, transform 0.1s ease;
 }
 
@@ -63,17 +64,7 @@
         padding: 1rem;
     }
 
-    .projects-title {
-        font-size: 1rem;
-    }
-
     .projects-description {
-        font-size: 0.85rem;
         text-align: left;
-    }
-
-    .projects-links a {
-        font-size: 0.8rem;
-        padding: 0.5rem 0;
     }
 }

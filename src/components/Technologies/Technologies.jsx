@@ -1,3 +1,5 @@
+import './technologies.css';
+import { AccordionSection } from '../AccordionSection/AccordionSection';
 import {
     SiHtml5,
     SiCss3,
@@ -13,9 +15,6 @@ import {
     SiGit,
     SiMysql
 } from "react-icons/si";
-
-import './technologies.css';
-import { AccordionSection } from '../AccordionSection/AccordionSection';
 
 export const Technologies = () => {
 
@@ -119,6 +118,5 @@ export const Technologies = () => {
                 </div>
             </section>
         </AccordionSection>
-    )
-
-}
+    );
+};

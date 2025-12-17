@@ -1,4 +1,5 @@
 import './App.css';
+
 import { Header } from './components/Header/Header';
 import { Technologies } from './components/Technologies/Technologies';
 // import { Languages } from './components/Languages/Languages';
@@ -40,7 +41,7 @@ function App() {
       <Projects />
       <Experience experienceList={profile.experience} />
     </div>
-  )
-}
+  );
+};
 
 export default App;

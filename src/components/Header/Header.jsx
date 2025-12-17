@@ -38,13 +38,11 @@ export const Header = ({ photo, name, job, location, linkedin, resume, email }) 
                     </a>
                 </p>
 
-
                 {/* <p className="phone">
                     <a href={`tel:${phone}`} target="_blank" rel="noopener noreferrer">
                         {phone}
                     </a>
                 </p> */}
-
 
                 <p className="email">
                     <a href={`mailto:${email}`}>

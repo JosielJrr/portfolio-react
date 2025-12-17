@@ -14,7 +14,7 @@ export const Experience = ({ experienceList }) => {
                             <h3 className="title">{experience.name}</h3>
                             <h4 className="institution">{experience.institution}</h4>
                             <p className="period">Início: {startDate} Fim: {endDate}</p>
-                            <p>{experience.description}</p>
+                            <p className='description'>{experience.description}</p>
                             <hr />
                         </li>
                     );

@@ -10,29 +10,39 @@
 
 .experience li .title {
     margin: 0;
-    font-weight: 600;
+    font-size: 1rem;
 }
 
 .experience li .institution {
-    margin-top: 0.5rem;
+    margin: 0.3rem 0;
+    font-weight: 600;
+    color: #DADADA;
+    font-size: 0.9rem;
 }
 
 .experience li .period {
     display: flex;
-    flex-direction: row;
     align-items: center;
     font-weight: 600;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
 }
 
 .experience li .period::before {
-    content: ""; /* Pseudo-elemento antes do conteúdo */
+    content: "";
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.3rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../../assets/image/icons/calendar.svg'); /* Ícone de calendário no início */
-    margin-right: .5rem;
+    background-image: url('../../assets/image/icons/calendar.svg');
+}
+
+.experience li .description {
+    font-size: 0.9rem;
+    color: #E6E6E6;
+    line-height: 1.4;
 }
 
 .experience li hr {

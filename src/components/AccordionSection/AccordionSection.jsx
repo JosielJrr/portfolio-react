@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import './accordionSection.css';
+import { useState } from 'react';
 
 export const AccordionSection = ({ title, children }) => {
     // Estado que controla se o accordion está aberto ou fechado
@@ -16,5 +16,5 @@ export const AccordionSection = ({ title, children }) => {
                 {children}
             </div>
         </section>
-    )
-}
+    );
+};

@@ -16,13 +16,13 @@ export const Education = ({ educationList }) => {
                             <h3>{education.institution}</h3>
                             <p className="period">Início: {startDate} Fim: {endDate}</p>
                             {hasCertificate && (
-                                    <a
-                                        href={education.certificate}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        Certificado
-                                    </a>
+                                <a
+                                    href={education.certificate}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Certificado
+                                </a>
                             )}
                         </li>
                     );
